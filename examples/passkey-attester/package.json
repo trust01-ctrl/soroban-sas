@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Browser demo showing Passkey / WebAuthn signing for Stellar smart wallets",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
